@@ -1,7 +1,7 @@
-# **ONT-RNA-Sequencing**
+# **Direct-RNA-Sequencing**
 
 ### Description
-This document repository is meant to serve as the start of collection of ideas, information, documentation, protocols and other resources for direct-rna-sequencing of viral samples.
+This document repository is meant to serve as the start of collection of ideas, information, documentation, protocols and other resources for direct-rna-sequencing of viral samples using the ONT platform.
 
 
 
@@ -37,11 +37,14 @@ This document repository is meant to serve as the start of collection of ideas, 
  - What Else?  
 
 #### 2. Barcoding 
+
   - Barcoding the cDNA 
     - [CDC Protocol](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/blob/master/protocols/CDC-Comprehensive/CDC_SARS-CoV-2_Sequencing_200325-2.pdf)
+    
     - Salis Lab 
       - [A Massively Parallel COVID-19 Diagnostic Assay for Simultaneous Testing of 19200 Patient Samples](https://t.co/x2c2v8uvw3?amp=1) 
       - [Primers & Spike-in Controls](https://t.co/9cWzQrfz5P?amp=1)
+      
   - Barcoding the RNA (is this possible?)
  
 #### 3. Adaptor Ligation
