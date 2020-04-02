@@ -29,25 +29,7 @@
     - [Narry Kim's Lab](https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2.full.pdf)
       > Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 
     
- - What Else?
-  
-##### Challenges in Extraction & Scaling: [Source](https://docs.google.com/document/d/1ra3L84yKwz3TU1xdRgDMQU3A0ZCGZmljeyqCI179KtQ/edit)
-- Performing sequencing requires genomic material to be extracted from a physical sputum sample in a multi-step process where reagents and liquids are mixed, transferred into a thermocycler, and then processed for readouts. 
-
-- Given the volume of tests that need to be done, this process must be automated. Robotic liquid handling systems are important for scaleup, but are typically very expensive and out of reach for most labs. 
-
-- The key issues being faced in this category include:
-  - Lack of extraction capability and instrumentation bottlenecks
-  - Lack of trained staff, skilled technicians, and training capability for existing and new tests, especially for high-throughput platforms which have complex protocols
-  - Lack of large-scale high complexity physical testing capacity (facilities, automation platforms/robotics) in public service (much of the installed base is operating in commercial settings)
-  - Supply chain limitations on approved clinically validated viral RNA kits also require broadening the approved viral RNA methodologies and kits. For example, on March 10, Politico reported that all validated viral RNA extraction kits (i.e. the ones from Qiagen) were on backorder.
-  - Multiple labs have reported successful changes to alternative unapproved solutions. Current short list of reported alternates includes (but additional validation of quality required):
-    - OmegaBiotek Mag-Bind Viral RNA 96 kits (and amenable to liquid handling automation)
-    - Switching to vet rated Qiagen kits (limited stock available)
-    - Ambion vRNA kits (limited EU stock)
-    - Zymo Research Direct-zol + Trizol inactivation (limited EU availability, available in USA)
-    - Analytic Jena Innuprep kits + FeliX robot for automated 96 well extractions
-
+ - What Else?  
 
 #### 2. Barcoding 
   - Barcoding the cDNA 
@@ -110,6 +92,22 @@ The Victorian Infectious Diseases Reference Laboratory ([VIDRL](https://www.vidr
 - [SISPA Sequencing Protocol](./protocols/ONT-SISPA)
 
 
+##### Challenges in Extraction & Scaling: [Source](https://docs.google.com/document/d/1ra3L84yKwz3TU1xdRgDMQU3A0ZCGZmljeyqCI179KtQ/edit)
+- Performing sequencing requires genomic material to be extracted from a physical sputum sample in a multi-step process where reagents and liquids are mixed, transferred into a thermocycler, and then processed for readouts. 
+
+- Given the volume of tests that need to be done, this process must be automated. Robotic liquid handling systems are important for scaleup, but are typically very expensive and out of reach for most labs. 
+
+- The key issues being faced in this category include:
+  - Lack of extraction capability and instrumentation bottlenecks
+  - Lack of trained staff, skilled technicians, and training capability for existing and new tests, especially for high-throughput platforms which have complex protocols
+  - Lack of large-scale high complexity physical testing capacity (facilities, automation platforms/robotics) in public service (much of the installed base is operating in commercial settings)
+  - Supply chain limitations on approved clinically validated viral RNA kits also require broadening the approved viral RNA methodologies and kits. For example, on March 10, Politico reported that all validated viral RNA extraction kits (i.e. the ones from Qiagen) were on backorder.
+  - Multiple labs have reported successful changes to alternative unapproved solutions. Current short list of reported alternates includes (but additional validation of quality required):
+    - OmegaBiotek Mag-Bind Viral RNA 96 kits (and amenable to liquid handling automation)
+    - Switching to vet rated Qiagen kits (limited stock available)
+    - Ambion vRNA kits (limited EU stock)
+    - Zymo Research Direct-zol + Trizol inactivation (limited EU availability, available in USA)
+    - Analytic Jena Innuprep kits + FeliX robot for automated 96 well extractions
 
 
 
