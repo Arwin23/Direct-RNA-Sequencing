@@ -7,7 +7,6 @@
 ##### Overview of Methods
 - RNA Extraction suggested by CDC:
 > Performance of the CDC 2019-nCoV Real-Time RT-PCR Diagnostic Panel is dependent upon the amount and quality of template RNA purified from human specimens. The following commercially available RNA extraction kits and procedures have been qualified and validated for recovery and purity of RNA for use with the panel:
-  
     - Qiagen QIAamp® DSP Viral RNA Mini Kit or QIAamp® Viral RNA Mini Kit
     - Qiagen EZ1 Advanced XL
     - Qiagen EZ1 DSP Virus Kit and Buffer AVL (supplied separately) for offboard lysis
@@ -18,17 +17,17 @@
     - Roche MagNA Pure Compact
     - bioMérieux NucliSENS® easyMAG® Instrument
     - bioMérieux EMAG® Instrument
-  
-- Other kits
+    
+- Other kits:
     - [BioVision](https://www.biovision.com/documentation/datasheets/K1462.pdf) 
     - [ZymoResearch] 
     - [MyLab]
-  
+      
 - RNA Extraction used by Labs that did DRS with ONT. Viral samples were from cell culture.
     - [Peter Doherty Lab](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/tree/master/protocols/ONT-Native_RNA) 
-    > Nucleic acids were prepared from infected cellular material, following inactivation with linear acrylamide and ethanol. RNA was extracted from a modest cell pellet (~200mg) using manually prepared wide-bore pipette tips and minimal steps to maintain RNA length for long read sequencing, and a QIAamp Viral RNA Mini Kit (Qiagen, Hilden, Germany). Carrier RNA was not added to Buffer AVL, with 1% linear acrylamide (Life Technologies, Carlsbad, CA, USA) added instead. Wash buffer AW1 was omitted from the purification stage, with RNA eluted in 50 μl of nuclease free water, followed by DNase treatment with Turbo DNase (Thermo Fisher Scientific, Waltham, MA, USA) 37°C for 30 min. RNA was cleaned and concentrated to 10 μl using the RNA Clean & Concentrator-5 kit (Zymo Research, Irvine, CA, USA), as per manufacturer’s instructions
-     - [Narry Kim's Lab](https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2.full.pdf)
-    > Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 
+      > Nucleic acids were prepared from infected cellular material, following inactivation with linear acrylamide and ethanol. RNA was extracted from a modest cell pellet (~200mg) using manually prepared wide-bore pipette tips and minimal steps to maintain RNA length for long read sequencing, and a QIAamp Viral RNA Mini Kit (Qiagen, Hilden, Germany). Carrier RNA was not added to Buffer AVL, with 1% linear acrylamide (Life Technologies, Carlsbad, CA, USA) added instead. Wash buffer AW1 was omitted from the purification stage, with RNA eluted in 50 μl of nuclease free water, followed by DNase treatment with Turbo DNase (Thermo Fisher Scientific, Waltham, MA, USA) 37°C for 30 min. RNA was cleaned and concentrated to 10 μl using the RNA Clean & Concentrator-5 kit (Zymo Research, Irvine, CA, USA), as per manufacturer’s instructions
+    - [Narry Kim's Lab](https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2.full.pdf)
+      > Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 
     
  - What Else?
   
