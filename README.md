@@ -1,5 +1,10 @@
 # **ONT-RNA-Sequencing**
 
+### Description
+This document repository is meant to serve as the start of collection of ideas, information, documentation, protocols and other resources for direct-rna-sequencing of viral samples.
+
+
+
 ### Workflow
 
 #### 1. RNA Extraction from Respiratory Specimens
