@@ -2,12 +2,62 @@
 
 ### Workflow
 
-#### 1. RNA Extraction
-  - Qiagen
-  - LifeS
+#### 1. RNA Extraction from Respiratory Specimens
+
+##### Overview of Methods
+- RNA Extraction suggested by CDC:
+> Performance of the CDC 2019-nCoV Real-Time RT-PCR Diagnostic Panel is dependent upon the amount and quality of template RNA purified from human specimens. The following commercially available RNA extraction kits and procedures have been qualified and validated for recovery and purity of RNA for use with the panel:
+  
+    - Qiagen QIAamp® DSP Viral RNA Mini Kit or QIAamp® Viral RNA Mini Kit
+    - Qiagen EZ1 Advanced XL
+    - Qiagen EZ1 DSP Virus Kit and Buffer AVL (supplied separately) for offboard lysis
+    - Qiagen EZ1 Virus Mini Kit v2.0 and Buffer AVL (supplied separately) for offboard lysis
+    - QIAGEN QIAcube
+    - Roche MagNA Pure LC
+    - Roche MagNA Pure Total Nucleic Acid Kit
+    - Roche MagNA Pure Compact
+    - bioMérieux NucliSENS® easyMAG® Instrument
+    - bioMérieux EMAG® Instrument
+  
+- Other kits
+    - [BioVision](https://www.biovision.com/documentation/datasheets/K1462.pdf) 
+    - [ZymoResearch] 
+    - [MyLab]
+  
+- RNA Extraction used by Labs that did DRS with ONT. Viral samples were from cell culture.
+    - [Peter Doherty Lab](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/tree/master/protocols/ONT-Native_RNA) 
+    > Nucleic acids were prepared from infected cellular material, following inactivation with linear acrylamide and ethanol. RNA was extracted from a modest cell pellet (~200mg) using manually prepared wide-bore pipette tips and minimal steps to maintain RNA length for long read sequencing, and a QIAamp Viral RNA Mini Kit (Qiagen, Hilden, Germany). Carrier RNA was not added to Buffer AVL, with 1% linear acrylamide (Life Technologies, Carlsbad, CA, USA) added instead. Wash buffer AW1 was omitted from the purification stage, with RNA eluted in 50 μl of nuclease free water, followed by DNase treatment with Turbo DNase (Thermo Fisher Scientific, Waltham, MA, USA) 37°C for 30 min. RNA was cleaned and concentrated to 10 μl using the RNA Clean & Concentrator-5 kit (Zymo Research, Irvine, CA, USA), as per manufacturer’s instructions
+     - [Narry Kim's Lab](https://www.biorxiv.org/content/10.1101/2020.03.12.988865v2.full.pdf)
+    > Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 
+    
+ - What Else?
+  
+##### Challenges in Extraction & Scaling: [Source](https://docs.google.com/document/d/1ra3L84yKwz3TU1xdRgDMQU3A0ZCGZmljeyqCI179KtQ/edit)
+- Performing sequencing requires genomic material to be extracted from a physical sputum sample in a multi-step process where reagents and liquids are mixed, transferred into a thermocycler, and then processed for readouts. 
+
+- Given the volume of tests that need to be done, this process must be automated. Robotic liquid handling systems are important for scaleup, but are typically very expensive and out of reach for most labs. 
+
+- The key issues being faced in this category include:
+  - Lack of extraction capability and instrumentation bottlenecks
+  - Lack of trained staff, skilled technicians, and training capability for existing and new tests, especially for high-throughput platforms which have complex protocols
+  - Lack of large-scale high complexity physical testing capacity (facilities, automation platforms/robotics) in public service (much of the installed base is operating in commercial settings)
+  - Supply chain limitations on approved clinically validated viral RNA kits also require broadening the approved viral RNA methodologies and kits. For example, on March 10, Politico reported that all validated viral RNA extraction kits (i.e. the ones from Qiagen) were on backorder.
+  - Multiple labs have reported successful changes to alternative unapproved solutions. Current short list of reported alternates includes (but additional validation of quality required):
+    - OmegaBiotek Mag-Bind Viral RNA 96 kits (and amenable to liquid handling automation)
+    - Switching to vet rated Qiagen kits (limited stock available)
+    - Ambion vRNA kits (limited EU stock)
+    - Zymo Research Direct-zol + Trizol inactivation (limited EU availability, available in USA)
+    - Analytic Jena Innuprep kits + FeliX robot for automated 96 well extractions
+
+
 #### 2. Barcoding 
-  - Barcoding the cDNA - [CDC Protocol](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/blob/master/protocols/CDC-Comprehensive/CDC_SARS-CoV-2_Sequencing_200325-2.pdf)
+  - Barcoding the cDNA 
+    - [CDC Protocol](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/blob/master/protocols/CDC-Comprehensive/CDC_SARS-CoV-2_Sequencing_200325-2.pdf)
+    - Salis Lab 
+      - [A Massively Parallel COVID-19 Diagnostic Assay for Simultaneous Testing of 19200 Patient Samples](https://t.co/x2c2v8uvw3?amp=1) 
+      - [Primers & Spike-in Controls](https://t.co/9cWzQrfz5P?amp=1)
   - Barcoding the RNA (is this possible?)
+ 
 #### 3. Adaptor Ligation
 #### 4. Sequencing
 #### 5. Bioinformatics
