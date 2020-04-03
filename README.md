@@ -49,6 +49,8 @@ This document repository is meant to serve as the start of collection of ideas, 
 
 #### 2. Barcoding 
 
+Multiplexing samples lets you get more out of each flowcell. ONT shop has 96 barcode ligation kit that is suitable for DNA
+
   - Barcoding the cDNA 
     - [CDC Protocol](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/blob/master/protocols/CDC-Comprehensive/CDC_SARS-CoV-2_Sequencing_200325-2.pdf)
     
@@ -60,6 +62,12 @@ This document repository is meant to serve as the start of collection of ideas, 
  
 #### 3. Adaptor Ligation
 #### 4. Sequencing
+##### Overview of Approaches
+   - Direct RNA Sequencing of poly-A tailed RNA specimens in sample [example protocol](https://github.com/helix-phoenix/SARS-CoV-2_Sequencing/tree/master/protocols/ONT-Native_RNA)
+   - ARCTIC [Protocol](https://artic.network/ncov-2019)
+   - Direct RNA Sequencing of all RNA specimens in sample with 5' helicase-adaptor ligation ??
+   - ARCTIC Protocol on >5kb length cDNA ??
+
 #### 5. Bioinformatics
   
  
@@ -87,11 +95,11 @@ This document repository is meant to serve as the start of collection of ideas, 
 
 The following ONT sequencing protocols, checklists and job-aids are primarily designed for the Oxford Nanopore [MinION](https://nanoporetech.com/products/minion), and have been kindly shared by research groups throughout the world (please see individual protocols for attribution and citing purposes). Even so, most of these protocols should scale to larger ONT instruments without significant modifications.
 
-#### a) CDC NCIRD/DVD ONT Sequencing Protocol
+#### CDC NCIRD/DVD ONT Sequencing Protocol
 This protocol was developed, tuned and validated by the Viral Discovery laboratory at CDC/NCIRD, where it was used to generate the first 16 SARS-CoV-2 genome sequences from the United States. In practice, it has been used for situations with a relatively low or predictable volume of samples, and is often used in conjunction with Sanger-based tiling to resolve any potential sequencing or assembly issues.
 - [Singleplex and Multiplex Protocols for ONT/Illumina](./protocols/CDC-Comprehensive)
 
-#### b) [ARTIC Network nCoV-2019 Sequencing Protocol](https://artic.network/ncov-2019)
+#### ARTIC Network nCoV-2019 Sequencing [Protocol](https://artic.network/ncov-2019)
 This protocol was developed and released by the fine folks at [ARTIC Network](https://artic.network), and was subsequently refined based on comments from [Itokawa et al](https://www.biorxiv.org/content/10.1101/2020.03.10.985150v1.full.pdf), which identified potential issues and proposed an alternate L18 primer.
 
 - [Sequencing protocol](https://www.protocols.io/view/ncov-2019-sequencing-protocol-bbmuik6w) / [Single sample sequencing protocol](https://www.protocols.io/view/ncov-2019-sequencing-protocol-single-sample-bdbfi2jn)
@@ -104,7 +112,7 @@ This protocol was developed and released by the fine folks at [ARTIC Network](ht
 
 - Integrated bioinformatics (RAMPART) - documentation below under bioinformatics methods.
 
-#### c) Doherty Institute VIDRL Sequencing Protocols
+#### Doherty Institute VIDRL Sequencing Protocols
 The Victorian Infectious Diseases Reference Laboratory ([VIDRL](https://www.vidrl.org.au/)) at the [Peter Doherty Institute for Infection and Immunity](https://www.doherty.edu.au/) released two protocols for the ONT MinION, which they successfully used to sequence early Australian SARS-CoV-2 samples.
 - [Native RNA Sequencing Protocol](./protocols/ONT-Native_RNA) [(ref)](https://www.biorxiv.org/content/10.1101/2020.03.05.976167v1.full.pdf)
 
