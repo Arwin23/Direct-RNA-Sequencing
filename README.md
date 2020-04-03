@@ -35,6 +35,17 @@ This document repository is meant to serve as the start of collection of ideas, 
       > Total RNA from SARS-CoV-2-infected Vero cell was 314 extracted by using TRIzol (Invitrogen) followed by DNaseI (Takara) treatment. 
     
  - What Else?  
+ 
+ - Twist SARS-CoV-2 RNA controls
+    - The viral genome of 30,000 basepairs is provided in synthetic form.
+    - Synthetic Viral Genome provided as six RNA fragments, each 5kb long.
+    - RNA fragments are pooled in a 100uL solution 
+    - The no. of fragments available are 1 Million per uL or a total of 100 Million per 100uL pool
+    - Total fragments in 100uL pool = 0.16 fmol 
+    - Total amount of RNA in 100uL pool = 1.7 ng 
+    - All fragments in the pool are expected to be equimolar ratio and ~ weigh the same: 
+        - so 0.026 fmol per 5kb RNA fragment
+        - 0.28 ng per 5kb RNA fragment
 
 #### 2. Barcoding 
 
