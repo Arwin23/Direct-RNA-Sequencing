@@ -4,6 +4,23 @@
 This document repository is meant to serve as the start of collection of ideas, information, documentation, protocols and other resources for direct-rna-sequencing of viral samples using the ONT platform.
 
 
+##### Open Questions
+  - What's the expected viral load from an infected persons nasal/oral sample?
+    - See [SARS-CoV-2 (COVID-19) by the numbers](https://elifesciences.org/articles/57309)
+     - They say that the max observed values following diagnosis are:
+        - Nasopharynx, 10^6 to 10^9 RNAs per swab
+        - Throat, 10^4 to 10^8 RNAs per swab
+        - Stool, 10^4 to 10^8 RNAs per gram
+        - Sputum, 10^6 to 10^11 RNAs per mL
+
+  -  Its seems that cultivation in a host is necessary to obtain a virus from the patient sample that is being investigated. What if viral particles can be isolated from patient sample based on the physical characteristics of virions, so that the virome can be obtained from the enriched viral particles?
+    - See [Labratory Preocedures to generate viral metagenomes](https://www.nature.com/articles/nprot.2009.10) 
+    
+    > They say "This protocol is a description of the processes we have successfully used to: (i) concentrate viral particles from various types of samples, (ii) eliminate contaminating cells and free nucleic acids and (iii) extract, amplify and purify viral nucleic acids. Overall, a sample can be processed to isolate viral nucleic acids suitable for high-throughput sequencing in ∼1 week."
+
+
+
+
 
 ### Workflow
 
@@ -46,6 +63,8 @@ This document repository is meant to serve as the start of collection of ideas, 
     - All fragments in the pool are expected to be equimolar ratio and ~ weigh the same: 
         - so 0.026 fmol per 5kb RNA fragment
         - 0.28 ng per 5kb RNA fragment
+        
+
 
 #### 2. Barcoding 
 
